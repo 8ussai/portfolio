@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="color-scheme" content="light dark">
+  <title>Qussai Abu Shehadeh</title>
+  <meta name="description" content="Portfolio of Qussai Abu Shehadeh, ML/AI engineer.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav-inner">
+      <a href="#top" class="logo">Qussai</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">Qussai Abu Shehadeh</p>
+          <h1>AI that actually ships.</h1>
+          <p class="subhead">ML/AI engineer. From data collection to production.</p>
+          <div class="cta">
+            <a href="#projects" class="btn">See my work</a>
+            <a href="resume.pdf" class="more" target="_blank">Download CV</a>
+          </div>
+        </div>
+        <div class="portrait">
+          <img src="portrait.jpg" alt="Qussai Abu Shehadeh">
+        </div>
+      </div>
+    </section>
+
+    <!-- HIGHLIGHTS -->
+    <section class="band">
+      <div class="wrap stats">
+        <div><strong>1,000+</strong><span>Problems solved</span></div>
+        <div><strong>1763</strong><span>Codeforces max rating · Expert</span></div>
+        <div><strong>Top 30</strong><span>ICPC Jordan 2025</span></div>
+        <div><strong>1st</strong><span>AABU Contest 2023 &amp; 2024</span></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap narrow">
+        <h2 class="headline">About me.</h2>
+        <p class="body-lg">
+          I'm a Data Science and Artificial Intelligence graduate from Al Al-Bayt University in Jordan.
+          I like building things that work in production. I built and launched <strong>Ilna</strong> on my
+          own, a live AI study platform that uses LLMs, semantic search and speech-to-text. I also trained
+          real-time computer vision models that check exercise form from a webcam.
+        </p>
+        <p class="body-lg">
+          Competitive programming taught me algorithms and how to solve problems under pressure:
+          800+ problems in C++ on Codeforces, and over 1,000 across all platforms.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section band">
+      <div class="wrap">
+        <h2 class="headline center">Projects.</h2>
+        <p class="intro center">Things I designed, trained and shipped.</p>
+
+        <div class="bento">
+          <article class="tile hero-tile">
+            <span class="tag-live">Live</span>
+            <h3>Ilna</h3>
+            <p class="tile-sub">Your whole semester, organized by AI.</p>
+            <p>
+              A platform I built solo for university students. It turns slides and lecture recordings into
+              transcripts, summaries and practice quizzes. It also has a student community and an admin
+              dashboard for moderation and premium plans.
+            </p>
+            <p class="stack">Python · FastAPI · LangChain · ChromaDB · Whisper · Qwen3 · Gemini · React · TypeScript</p>
+            <a href="https://ilna-academic.com/" target="_blank" class="more">Visit website</a>
+          </article>
+
+          <article class="tile hero-tile">
+            <h3>PoseFitAI</h3>
+            <p class="tile-sub">A personal trainer in your webcam.</p>
+            <p>
+              Checks exercise form in real time by combining detection, pose estimation and movement
+              classification. It counts correct reps for squats, shoulder press and push-ups, and flags
+              common mistakes. I collected and labeled the data, then trained and deployed the models.
+            </p>
+            <p class="stack">PyTorch · TensorFlow · OpenCV · MediaPipe · YOLO</p>
+            <a href="https://github.com/8ussai/Pose-Fit-AI-2" target="_blank" class="more">View on GitHub</a>
+          </article>
+
+          <article class="tile">
+            <h3>Slides Search Engine</h3>
+            <p>Search across lecture slides, comparing TF-IDF ranking with semantic embedding search.</p>
+            <p class="stack">Python · Flask · NLP</p>
+            <a href="https://github.com/8ussai/Slides-Search-Engine" target="_blank" class="more">View on GitHub</a>
+          </article>
+
+          <article class="tile">
+            <h3>Rock Paper Scissors AR</h3>
+            <p>A hand-gesture game against the computer, powered by a custom-trained YOLOv8 model.</p>
+            <p class="stack">YOLOv8 · OpenCV · Python</p>
+            <a href="https://github.com/8ussai/Paper-Rock-Scissors-AR-Game" target="_blank" class="more">View on GitHub</a>
+          </article>
+
+          <article class="tile">
+            <h3>PopShot AR</h3>
+            <p>An augmented reality shooter controlled by hand tracking, with a saved scoreboard.</p>
+            <p class="stack">Python · Hand Tracking · SQLite</p>
+            <a href="https://github.com/8ussai/PopShot-AR" target="_blank" class="more">View on GitHub</a>
+          </article>
+
+          <article class="tile">
+            <h3>Freight Rate Prediction</h3>
+            <p>Data cleaning, analysis and model training to predict shipping rates.</p>
+            <p class="stack">Python · Scikit-Learn · EDA</p>
+            <a href="https://github.com/8ussai/ML-Engineer-Assessment-Spotter" target="_blank" class="more">View on GitHub</a>
+          </article>
+
+          <article class="tile">
+            <h3>Basic Horror Game</h3>
+            <p>A first-person horror game made in Unity.</p>
+            <p class="stack">Unity · C#</p>
+            <a href="https://github.com/8ussai/BasicHorrorGame" target="_blank" class="more">View on GitHub</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section">
+      <div class="wrap narrow">
+        <h2 class="headline">Experience.</h2>
+
+        <div class="list">
+          <article class="row">
+            <div class="row-meta">Jul – Sep 2026<br>Amman</div>
+            <div>
+              <h3>AI &amp; XR Development Intern</h3>
+              <p class="org">Beyond Universe</p>
+              <ul>
+                <li>Contributed to a custom AI Agent SDK that all company projects build on.</li>
+                <li>Supported the AI and XR development teams on two parallel workstreams.</li>
+                <li>Integrated and configured third-party Unity packages for XR projects.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="row">
+            <div class="row-meta">Mar – May 2026<br>Amman</div>
+            <div>
+              <h3>Game Development Trainee</h3>
+              <p class="org">Mays Alward</p>
+              <ul>
+                <li>Developed gameplay features for a 3D first-person game built with Unity, Blender and C#.</li>
+                <li>Worked with a multidisciplinary team to design, test and refine game mechanics.</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="row">
+            <div class="row-meta">2022 – 2026<br>Mafraq</div>
+            <div>
+              <h3>B.Sc. Data Science &amp; AI</h3>
+              <p class="org">Al Al-Bayt University</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section band">
+      <div class="wrap">
+        <h2 class="headline center">Skills.</h2>
+        <div class="skills">
+          <div class="card"><h3>Languages</h3><p>Python, C++, C#, SQL</p></div>
+          <div class="card"><h3>Machine Learning &amp; AI</h3><p>PyTorch, TensorFlow, Scikit-Learn, LangChain, YOLO, Whisper</p></div>
+          <div class="card"><h3>Computer Vision</h3><p>OpenCV, MediaPipe</p></div>
+          <div class="card"><h3>Backend &amp; Data</h3><p>FastAPI, SQLAlchemy, SQLite, ChromaDB, .NET</p></div>
+          <div class="card"><h3>Tools</h3><p>Git, GitHub, Unity, Blender, Cloudflare</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- AWARDS -->
+    <section class="section">
+      <div class="wrap narrow">
+        <h2 class="headline">Awards.</h2>
+        <div class="list">
+          <article class="row">
+            <div class="row-meta">Max 1763</div>
+            <div>
+              <h3>Codeforces Expert</h3>
+              <p class="org">800+ problems in C++, 28 rated contests</p>
+              <a href="https://codeforces.com/profile/Ya_Rab_Wazefa" target="_blank" class="more">View profile</a>
+            </div>
+          </article>
+          <article class="row">
+            <div class="row-meta">2024 – 2025</div>
+            <div>
+              <h3>ICPC Jordan Collegiate Programming Contest</h3>
+              <p class="org">Top 30 in 2025, Top 50 in 2024</p>
+            </div>
+          </article>
+          <article class="row">
+            <div class="row-meta">2023 – 2024</div>
+            <div>
+              <h3>First Place, AABU Programming Contest</h3>
+              <p class="org">Won two years in a row</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section band contact">
+      <div class="wrap narrow center">
+        <h2 class="headline">Let's build something.</h2>
+        <p class="intro">Open to ML/AI engineering roles and interesting projects.</p>
+        <div class="cta">
+          <a href="mailto:mr.qussai2004@gmail.com" class="btn">Email me</a>
+        </div>
+        <div class="links">
+          <a href="https://github.com/8ussai" target="_blank" class="more">GitHub</a>
+          <a href="https://www.linkedin.com/in/qussai-bassam" target="_blank" class="more">LinkedIn</a>
+          <a href="https://codeforces.com/profile/Ya_Rab_Wazefa" target="_blank" class="more">Codeforces</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">Copyright © 2026 Qussai Abu Shehadeh. All rights reserved.</div>
+  </footer>
+
+</body>
+</html>
